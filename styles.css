@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+* { 
+	box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-image: url('background.jpg');
+    overflow: hidden;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 40%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.619);
+    border-radius: 50px;
+    display: inline-block;
+    
+    
+    box-shadow: 20px 20px 50px black;
+}
+.box form{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding-left: 15%;
+    height: 40%;
+   
+}
+.box h1{
+    font-family: 'Russo One', sans-serif;
+    font-size: 60px;
+   
+    text-align: center;
+    position: relative;
+}
+#temp{
+    position: absolute;
+    width: 70%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
+}
+#temp option{
+    font-weight: bolder;
+}
+#val{
+    position: absolute;
+    width: 70%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;  
+    margin-top: 60px ;
+    border: 1px solid black;
+}
+.box h2{
+    font-family: 'Russo One', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    top: 13%;
+}
+.tem{
+    background-color: white;
+    position: relative;
+    width: 70%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;  
+    margin-top: 40px ;
+    margin-left:15% ;
+    top: 10%;
+    border: 1px solid black;
+}
+#below{
+    position: absolute;
+    top: 18%;
+    width: 40%;
+    top:45%;
+}
+#btn{
+    position: absolute;
+    width: 70%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;  
+    margin-top: 40px ;
+    top: 28%;
+    font-weight: 800;
+    border: 5px solid black;
+}
+#btn:hover{
+    cursor: pointer;
+}

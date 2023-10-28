@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Convertor</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <h1>Temperature Convertor</h1>
+        <form id="enter">
+          <select name="temperature" id="temp">
+            <option value="Option">Choose your Unit</option>
+            <option value="celcius">Celcius</option>
+            <option value="farenheit">Farenheit</option>
+            <option value="kelvin">Kelvin</option>
+          </select>
+          <input
+            type="number"
+            placeholder="Enter the Temperature value"
+            id="val"
+          />
+          <button type="submit" id="btn">Calculate</button>
+        </form>
+        <div id="below">
+          <h2>Convertions</h2>
+          <div id="cel" class="tem" style="display: flex">
+            <div style="font-weight: bold">Celcius:</div>
+            <div style="margin-left: 195px" id="ans1">0</div>
+          </div>
+          <div id="far" class="tem" style="display: flex">
+            <div style="font-weight: bold">Farenheit:</div>
+            <div style="margin-left: 180px" id="ans2">0</div>
+          </div>
+          <div id="kel" class="tem" style="display: flex">
+            <div style="font-weight: bold">Kelvin:</div>
+            <div style="margin-left: 200px" id="ans3">0</div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
